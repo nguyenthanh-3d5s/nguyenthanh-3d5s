@@ -10,3 +10,8 @@
 !./test < input.txt
 !cat output.txt
 ```
+```
+!gcc -std=c17 -Wall -o test test.c -lm
+!./test < input.txt
+!cat output.txt
+```
