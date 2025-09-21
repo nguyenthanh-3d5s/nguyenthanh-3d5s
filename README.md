@@ -1,5 +1,15 @@
 ## colab
 ```
+%%writefile test.c
+```
+```
+%%writefile input.txt
+```
+```
+!gcc -std=c17 -Wall -o test test.c -lm
+!./test < input.txt
+```
+```
 %%writefile test.cpp
 ```
 ```
@@ -7,9 +17,5 @@
 ```
 ```
 !g++ -std=c++17 -Wall -o test test.cpp
-!./test < input.txt
-```
-```
-!gcc -std=c17 -Wall -o test test.c -lm
 !./test < input.txt
 ```
