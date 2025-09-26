@@ -6,7 +6,7 @@
 %%writefile input.txt
 ```
 ```
-!gcc -std=c11 -O2 -Wall test.cpp -o test -lm
+!gcc -std=c11 -Wall test.cpp -o test -lm
 !./test < input.txt
 ```
 ```
@@ -16,6 +16,6 @@
 %%writefile input.txt
 ```
 ```
-!g++ -std=c++11 -O2 -Wall test.cpp -o test
+!g++ -std=c++11 -Wall test.cpp -o test
 !./test < input.txt
 ```
