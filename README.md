@@ -6,7 +6,7 @@
 %%writefile input.txt
 ```
 ```
-!gcc -std=c11 -Wall test.cpp -o test -lm
+!gcc -std=c11 -Wall test.c -o test -lm
 !./test < input.txt
 ```
 ```
